@@ -14,7 +14,7 @@ int main(int argc, string argv[]){
     }
     
     char base52[] = "ABCDEFGHIJKLMNOPQRSTUVQKYZabcdefghijklmnopqrstuvqkyz";
-    char convertedbase52[] = "\0\0\0\0";
+    char convertedbase52[] = "A\0\0\0";
     int j = 0;
     
     for(long i = 0; i < 7311616; i++)
