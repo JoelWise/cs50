@@ -16,7 +16,7 @@ int main(int argc, string argv[]){
     char convertedbase52[] = "\0\0\0\0";
     int j = 0;
 
-    // Iterate over all base10 numbers represented by a 4 digit base52 number (52^2 = 7311616)
+    // Iterate over all base10 numbers represented by a 4 digit base52 number (52^4 = 7311616)
     for(long i = 0; i < 7311616; i++)
     {
         // Convert base10 number into a base52 number ordered LSB to MSP left to right
